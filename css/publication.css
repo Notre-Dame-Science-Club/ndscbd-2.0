@@ -769,23 +769,7 @@ font-family: "Mina", sans-serif;}
         text-align: center;
     }
 
-    /* ── Footer ────────────────────────────────────────────── */
-    footer {
-        position: relative;
-        z-index: 10;
-        text-align: center;
-        padding: 28px 24px;
-        border-top: 1px solid rgba(99, 102, 241, 0.1);
-    }
-
-    footer p {
-        font-size: 11px;
-        font-family: monospace;
-        letter-spacing: .12em;
-        text-transform: uppercase;
-        opacity: 0.28;
-    }
-
+ 
     /* ── Modal base ────────────────────────────────────────── */
     .modal-overlay {
         position: fixed;
@@ -813,7 +797,12 @@ font-family: "Mina", sans-serif;}
             opacity: 1
         }
     }
-
+.footer-logo img{
+width:80px;
+display: flex;
+margin-bottom:10px;
+transform: translateX(170%);
+}
     /* ── Flipbook modal ────────────────────────────────────── */
     .flipbook-header {
         position: absolute;

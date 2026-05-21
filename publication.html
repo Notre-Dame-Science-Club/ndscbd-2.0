@@ -7,10 +7,12 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Mina:wght@400;700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Mina:wght@400;700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        
   <link rel="stylesheet" href="css/nav.css">
   <link rel="stylesheet" href="css/publication.css">
+  <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
 
@@ -240,10 +242,8 @@
   </main>
 
   <!-- Footer -->
-  <footer>
-    <p>Notre Dame Science Club · Developed by Samin Sakur · <span id="currentYear"></span></p>
-  </footer>
 
+<span id="currentYear"></span>
   <!-- ── FLIPBOOK MODAL ────────────────────────────────────────── -->
   <div class="modal-overlay" id="flipbookModal">
     <div class="flipbook-header">
@@ -299,7 +299,9 @@
 
   <!-- ── Scripts ─────────────────────────────────────────────── -->
   <script src="js/nav.js"></script>
-  <script src="js/publication.js">
+  <script src="js/publication.js?v=8">
   </script>
+  <div id="footer-placeholder"></div>
+  <script src="js/footer.js"></script>
 </body>
 </html>

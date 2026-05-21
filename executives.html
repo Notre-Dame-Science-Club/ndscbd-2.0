@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="css/nav.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/footer.css">
   <script src="js/nav.js" defer></script>
 </head>
@@ -22,20 +23,27 @@
   <div class="container">
     <h1>MEET OUR <span>PATRONS</span></h1>
   </div>
-
-  <section class="patron-section">
+<!-- PRINCIPAL SECTION -->
+  <section class="principal-section">
     <div class="patron">
       <img src="images/Principal.jpg" alt="Principal">
       <h3>Dr.Fr.Hemanto Pius Rozario,CSC</h3>
       <p>Principal</p>
     </div>
+  </section>
+  <!-- MODERATOR SECTION -->
+  <section class="patron-section">
     <div class="patron">
       <img src="images/Titas-sir.jpg" alt="Club Moderator">
       <h3>Dr.Vincent Titas Rozario</h3>
       <p>Club Moderator</p>
     </div>
+    <div class="patron">
+      <img src="images/Sushanto-Kumar-Sarkar.jpg" alt="Ex Club Moderator">
+      <h3>Sushanto Kumar Sarkar</h3>
+      <p>Ex Club Moderator</p>
+    </div>
   </section>
-
   <!-- EXECUTIVES — tabs and cards built entirely by JS -->
   <div class="container">
     <h1>MEET THE <span>EXECUTIVES</span></h1>
@@ -44,32 +52,6 @@
   </div>
 
   <!-- FOOTER -->
-  <footer class="space-footer">
-    <div class="footer-stars"></div>
-    <div class="footer-container">
-      <div class="footer-links">
-        <h3>Navigation</h3>
-        <a href="index.html">Home</a>
-        <a href="activities.html">Activities</a>
-        <a href="publication.html">Publication</a>
-        <a href="executives.html">Executives</a>
-      </div>
-      <div class="footer-logo">
-        <img src="images/logo-2.0.png" alt="Science Club Logo">
-        <h2>Science Club</h2>
-        <a href="developers.html" class="dev-btn">🚀 Developers</a>
-      </div>
-      <div class="footer-contact">
-        <h3>Contact</h3>
-        <p>📍 G.P.O Box 5, Toyenbee Circular Rd,<br>Dhaka 1000</p>
-        <p>📧 ndsc.org@gmail.com</p>
-        <p>📞 +880-1613-065319</p>
-      </div>
-    </div>
-    <div class="footer-bottom">
-      <p>© 2026 Science Club | Exploring the Universe 🌌</p>
-    </div>
-  </footer>
 
   <!-- MODAL -->
   <div class="modal" id="modal">
@@ -87,5 +69,7 @@
   <script src="js/executives-data.js"></script>
   <script src="js/executives.js"></script>
 
+  <div id="footer-placeholder"></div>
+  <script src="js/footer.js"></script>
 </body>
 </html>

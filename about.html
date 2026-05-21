@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About | Notre Dame Science Club</title>
+  <link rel="icon" href="images/cropped-logo.png" type="image/png"/>
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+  <link rel="stylesheet" href="css/footer.css">
+  <script src="js/nav.js" defer></script>
+
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;600;700;900&family=Rajdhani:wght@300;400;500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --bg: #020810;
+      --bg2: #050d1a;
+      --blue: #00d4ff;
+      --blue2: #0077ff;
+      --glow: #00d4ff88;
+      --white: #e8f4ff;
+      --muted: #6a8faf;
+      --card: #0a1628cc;
+      --border: #0f2a4a;
+      --accent: #ff6b35;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--white); font-family: 'Rajdhani', sans-serif; overflow-x: hidden; cursor: default; }
+
+    #starfield { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none; }
+
+    .particles { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none; overflow: hidden; }
+    .particle { position: absolute; width: 2px; height: 2px; border-radius: 50%; background: var(--blue); opacity: 0; animation: floatUp var(--dur) linear infinite; animation-delay: var(--delay); left: var(--x); }
+    @keyframes floatUp {
+      0%   { transform: translateY(100vh) scale(0); opacity: 0; }
+      10%  { opacity: 0.6; }
+      90%  { opacity: 0.3; }
+      100% { transform: translateY(-10vh) scale(1.5); opacity: 0; }
+    }
+
+    .hero { position: relative; z-index: 1; min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 6rem 2rem 4rem; overflow: hidden; }
+    .hero-grid-overlay { position: absolute; inset: 0; background-image: linear-gradient(var(--border) 1px, transparent 1px), linear-gradient(90deg, var(--border) 1px, transparent 1px); background-size: 60px 60px; opacity: 0.3; mask-image: radial-gradient(ellipse 80% 80% at 50% 50%, black 30%, transparent 100%); }
+    .hero-scan { position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, transparent, var(--blue), transparent); animation: scan 4s linear infinite; opacity: 0.6; }
+    @keyframes scan { 0% { top: 0; } 100% { top: 100%; } }
+    .hero-tag { font-family: 'Share Tech Mono', monospace; font-size: 0.8rem; color: var(--blue); letter-spacing: 0.3em; text-transform: uppercase; margin-bottom: 1.5rem; opacity: 0; animation: fadeUp 0.8s 0.3s forwards; }
+    .hero-tag::before { content: '[ '; }
+    .hero-tag::after  { content: ' ]'; }
+    .hero-title { font-family: 'Orbitron', monospace; font-size: clamp(2.8rem, 7vw, 6rem); font-weight: 900; line-height: 1.05; letter-spacing: 0.04em; margin-bottom: 1rem; opacity: 0; animation: fadeUp 0.8s 0.5s forwards; }
+    .hero-title .line1 { display: block; color: var(--white); }
+    .hero-title .line2 { display: block; background: linear-gradient(135deg, var(--blue) 0%, var(--blue2) 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; filter: drop-shadow(0 0 30px var(--glow)); }
+    .hero-subtitle { max-width: 620px; font-size: 1.15rem; font-weight: 400; color: var(--muted); line-height: 1.7; margin-bottom: 2.5rem; opacity: 0; animation: fadeUp 0.8s 0.7s forwards; }
+    .hero-badge { display: inline-flex; align-items: center; gap: 0.6rem; padding: 0.6rem 1.4rem; border: 1px solid var(--blue); border-radius: 2px; font-family: 'Share Tech Mono', monospace; font-size: 0.85rem; color: var(--blue); background: #00d4ff0d; letter-spacing: 0.1em; opacity: 0; animation: fadeUp 0.8s 0.9s forwards; }
+    .hero-badge .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--blue); animation: pulse 1.5s infinite; }
+    @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.4; transform: scale(0.6); } }
+    .hero-scroll-indicator { position: absolute; bottom: 2.5rem; left: 50%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 0.4rem; opacity: 0; animation: fadeIn 1s 1.5s forwards; }
+    .hero-scroll-indicator span { font-family: 'Share Tech Mono', monospace; font-size: 0.65rem; letter-spacing: 0.2em; color: var(--muted); }
+    .scroll-line { width: 1px; height: 50px; background: linear-gradient(180deg, var(--blue) 0%, transparent 100%); animation: scrollLine 2s ease-in-out infinite; }
+    @keyframes scrollLine { 0%,100% { opacity: 0.3; transform: scaleY(1); } 50% { opacity: 1; transform: scaleY(1.2); } }
+
+    section { position: relative; z-index: 1; padding: 6rem 2rem; }
+    .container { max-width: 1100px; margin: 0 auto; }
+    .section-label { font-family: 'Share Tech Mono', monospace; font-size: 0.75rem; letter-spacing: 0.35em; color: var(--blue); text-transform: uppercase; margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.75rem; }
+    .section-label::before { content: ''; display: inline-block; width: 30px; height: 1px; background: var(--blue); }
+    .section-title { font-family: 'Orbitron', monospace; font-size: clamp(1.8rem, 4vw, 3rem); font-weight: 700; letter-spacing: 0.03em; line-height: 1.15; margin-bottom: 1rem; }
+
+    .reveal { opacity: 0; transform: translateY(40px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .reveal.visible { opacity: 1; transform: translateY(0); }
+    .reveal-delay-1 { transition-delay: 0.1s; }
+    .reveal-delay-2 { transition-delay: 0.2s; }
+    .reveal-delay-3 { transition-delay: 0.3s; }
+    .reveal-delay-4 { transition-delay: 0.4s; }
+    .reveal-delay-5 { transition-delay: 0.5s; }
+
+    .divider { width: 100%; height: 1px; background: linear-gradient(90deg, transparent, var(--border), transparent); margin: 0; }
+
+    /* ── HISTORY ── */
+    .history-section { background: var(--bg); }
+    .history-inner { display: grid; grid-template-columns: 1fr 1fr; gap: 5rem; align-items: center; }
+    .history-text p { font-size: 1.05rem; color: var(--muted); line-height: 1.85; margin-bottom: 1.2rem; font-weight: 400; }
+    .history-text p strong { color: var(--white); font-weight: 600; }
+    .history-stats { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 2rem; }
+    .stat-card { border: 1px solid var(--border); background: var(--card); padding: 1.5rem; position: relative; overflow: hidden; transition: border-color 0.3s, transform 0.3s; }
+    .stat-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 2px; background: linear-gradient(90deg, var(--blue2), var(--blue)); transform: scaleX(0); transition: transform 0.4s; }
+    .stat-card:hover { border-color: var(--blue); transform: translateY(-3px); }
+    .stat-card:hover::before { transform: scaleX(1); }
+    .stat-num { font-family: 'Orbitron', monospace; font-size: 2.2rem; font-weight: 900; color: var(--blue); line-height: 1; filter: drop-shadow(0 0 10px var(--glow)); }
+    .stat-label { font-size: 0.85rem; color: var(--muted); letter-spacing: 0.05em; margin-top: 0.4rem; font-family: 'Share Tech Mono', monospace; }
+    .timeline { position: relative; padding-left: 2rem; }
+    .timeline::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 1px; background: linear-gradient(180deg, var(--blue), transparent); }
+    .timeline-item { position: relative; margin-bottom: 2.5rem; }
+    .timeline-item::before { content: ''; position: absolute; left: -2rem; top: 0.3rem; width: 9px; height: 9px; border-radius: 50%; background: var(--blue); box-shadow: 0 0 12px var(--glow); transform: translateX(-4px); }
+    .timeline-year { font-family: 'Orbitron', monospace; font-size: 0.8rem; font-weight: 700; color: var(--blue); letter-spacing: 0.15em; margin-bottom: 0.3rem; }
+    .timeline-event { font-size: 1rem; font-weight: 600; color: var(--white); margin-bottom: 0.25rem; }
+    .timeline-desc { font-size: 0.9rem; color: var(--muted); line-height: 1.6; }
+
+    /* ── MOTTO ── */
+    .motto-section { background: var(--bg2); text-align: center; padding: 8rem 2rem; }
+    .motto-section .container { max-width: 1000px; }
+    .motto-ring { width: 160px; height: 160px; border-radius: 50%; border: 2px solid var(--border); margin: 0 auto 3rem; position: relative; display: flex; align-items: center; justify-content: center; }
+    .motto-ring::before { content: ''; position: absolute; inset: -8px; border-radius: 50%; border: 1px solid var(--blue); opacity: 0.4; animation: ringRotate 8s linear infinite; }
+    .motto-ring::after { content: ''; position: absolute; inset: -16px; border-radius: 50%; border: 1px dashed var(--blue2); opacity: 0.2; animation: ringRotate 14s linear infinite reverse; }
+    @keyframes ringRotate { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+    .motto-ring img { width: 150px; height: 150px; object-fit: contain; }
+    .motto-quote { font-family: 'Orbitron', monospace; font-size: clamp(1.6rem, 4vw, 2.6rem); font-weight: 700; color: var(--white); letter-spacing: 0.04em; line-height: 1.3; margin-bottom: 1.5rem; position: relative; }
+    .motto-quote .highlight { color: var(--blue); filter: drop-shadow(0 0 20px var(--glow)); }
+
+    /* ── MOTTO DESC — typography-only improvements ── */
+    .motto-desc {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: left;
+    }
+
+    .motto-desc p {
+      font-size: 1.05rem;
+      color: var(--muted);
+      line-height: 2;
+      margin-bottom: 1.5rem;
+      font-weight: 400;
+    }
+    .motto-desc p:last-child { margin-bottom: 0; }
+
+    /* opener paragraph — slightly brighter, slightly larger */
+    .motto-desc p:first-child {
+      font-size: 1.12rem;
+      color: #8ab0cc;
+      line-height: 2.05;
+    }
+
+    /* drop cap on the opening letter */
+    
+
+    /* key terms */
+    .motto-desc strong {
+      color: #9edff0;
+      font-weight: 600;
+    }
+
+    /* ── MV ── */
+    .mv-section { background: var(--bg); }
+    .mv-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
+    .mv-card { border: 1px solid var(--border); background: var(--card); padding: 2.5rem; position: relative; overflow: hidden; transition: border-color 0.3s, transform 0.3s; }
+    .mv-card::after { content: ''; position: absolute; bottom: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--blue2), var(--blue), var(--blue2)); background-size: 200% 100%; animation: shimmer 3s linear infinite; opacity: 0; transition: opacity 0.3s; }
+    .mv-card:hover { border-color: #00d4ff40; transform: translateY(-4px); }
+    .mv-card:hover::after { opacity: 1; }
+    @keyframes shimmer { 0% { background-position: 200% 0; } 100% { background-position: -200% 0; } }
+    .mv-icon { font-size: 2.5rem; margin-bottom: 1.2rem; filter: drop-shadow(0 0 8px var(--glow)); }
+    .mv-card-title { font-family: 'Orbitron', monospace; font-size: 1.2rem; font-weight: 700; color: var(--blue); letter-spacing: 0.06em; margin-bottom: 1rem; }
+    .mv-card p { font-size: 1rem; color: var(--muted); line-height: 1.8; }
+    .mv-card ul { list-style: none; margin-top: 0.8rem; }
+    .mv-card ul li { font-size: 0.95rem; color: var(--muted); padding: 0.4rem 0 0.4rem 1.5rem; position: relative; line-height: 1.6; }
+    .mv-card ul li::before { content: '›'; position: absolute; left: 0; color: var(--blue); font-size: 1.1rem; font-weight: 700; }
+
+    /* ── IDEOLOGY ── */
+    .ideology-section { background: var(--bg2); }
+    .ideology-intro { max-width: 680px; font-size: 1.05rem; color: var(--muted); line-height: 1.8; margin-bottom: 3.5rem; }
+    .ideology-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+    .ideology-card { border: 1px solid var(--border); background: #060f1ecc; padding: 2rem 1.5rem; position: relative; overflow: hidden; transition: border-color 0.35s, transform 0.35s; cursor: default; }
+    .ideology-card:hover { border-color: var(--blue); transform: translateY(-6px); }
+    .ideology-card-glow { position: absolute; top: -60px; left: 50%; transform: translateX(-50%); width: 120px; height: 120px; border-radius: 50%; background: var(--glow); opacity: 0; transition: opacity 0.4s; filter: blur(30px); pointer-events: none; }
+    .ideology-card:hover .ideology-card-glow { opacity: 0.35; }
+    .ideology-num { font-family: 'Orbitron', monospace; font-size: 2.8rem; font-weight: 900; color: #00d4ff12; position: absolute; top: 1rem; right: 1.2rem; line-height: 1; letter-spacing: -0.02em; }
+    .ideology-icon { font-size: 2rem; margin-bottom: 1rem; }
+    .ideology-card-title { font-family: 'Rajdhani', sans-serif; font-size: 1.1rem; font-weight: 700; color: var(--white); margin-bottom: 0.6rem; letter-spacing: 0.04em; }
+    .ideology-card p { font-size: 0.9rem; color: var(--muted); line-height: 1.7; }
+
+    /* ── DEPT ── */
+    .dept-section { background: var(--bg); }
+    .dept-intro { max-width: 600px; font-size: 1.05rem; color: var(--muted); line-height: 1.8; margin-bottom: 3.5rem; }
+    .dept-grid { display: grid; grid-template-columns: repeat(5, 1fr); gap: 1.2rem; }
+    .dept-card { border: 1px solid var(--border); background: var(--card); padding: 2rem 1rem; text-align: center; position: relative; overflow: hidden; transition: border-color 0.3s, transform 0.3s; }
+    .dept-card::before { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, #00d4ff08 0%, transparent 100%); opacity: 0; transition: opacity 0.3s; }
+    .dept-card:hover { border-color: var(--blue); transform: translateY(-5px); }
+    .dept-card:hover::before { opacity: 1; }
+    .dept-icon { width: 56px; height: 56px; object-fit: contain; margin: 0 auto 1rem; filter: drop-shadow(0 0 6px var(--glow)); transition: filter 0.3s; }
+    .dept-card:hover .dept-icon { filter: drop-shadow(0 0 14px var(--glow)); }
+    .dept-name { font-family: 'Orbitron', monospace; font-size: 0.7rem; font-weight: 700; letter-spacing: 0.12em; color: var(--blue); text-transform: uppercase; }
+
+    /* ── GOALS ── */
+    .goals-section { background: var(--bg2); }
+    .goals-list { display: flex; flex-direction: column; gap: 1.2rem; margin-top: 1rem; }
+    .goal-item { display: flex; align-items: flex-start; gap: 1.5rem; border: 1px solid var(--border); background: var(--card); padding: 1.8rem 2rem; transition: border-color 0.3s, transform 0.3s; position: relative; overflow: hidden; }
+    .goal-item:hover { border-color: var(--blue); transform: translateX(6px); }
+    .goal-item::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: linear-gradient(180deg, var(--blue), var(--blue2)); transform: scaleY(0); transition: transform 0.3s; }
+    .goal-item:hover::before { transform: scaleY(1); }
+    .goal-num { font-family: 'Orbitron', monospace; font-size: 1.4rem; font-weight: 900; color: var(--blue); opacity: 0.5; min-width: 2.5rem; line-height: 1.3; }
+    .goal-title { font-family: 'Rajdhani', sans-serif; font-size: 1.1rem; font-weight: 700; color: var(--white); margin-bottom: 0.4rem; letter-spacing: 0.03em; }
+    .goal-desc { font-size: 0.95rem; color: var(--muted); line-height: 1.7; }
+
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(30px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+
+    @media (max-width: 900px) {
+      .history-inner { grid-template-columns: 1fr; gap: 3rem; }
+      .mv-grid { grid-template-columns: 1fr; }
+      .ideology-grid { grid-template-columns: 1fr 1fr; }
+      .dept-grid { grid-template-columns: repeat(3, 1fr); }
+      nav { padding: 1rem 1.5rem; }
+      .nav-links { gap: 1.2rem; }
+    }
+    @media (max-width: 600px) {
+      .ideology-grid { grid-template-columns: 1fr; }
+      .dept-grid { grid-template-columns: repeat(2, 1fr); }
+      .history-stats { grid-template-columns: 1fr 1fr; }
+      .nav-links { display: none; }
+      .motto-desc p:first-child::first-letter { font-size: 2.4rem; }
+    }
+  </style>
+</head>
+<body>
+
+<canvas id="starfield"></canvas>
+<div class="particles" id="particles"></div>
+
+<section class="hero">
+  <div class="hero-grid-overlay"></div>
+  <div class="hero-scan"></div>
+  <p class="hero-tag">Notre Dame Science Club</p>
+  <h1 class="hero-title">
+    <span class="line1">ABOUT</span>
+    <span class="line2">NDSC</span>
+  </h1>
+  <p class="hero-subtitle">
+    Founded in 1955, Notre Dame Science Club stands as the first college-level
+    science club in the Indian Subcontinent — a legacy of curiosity, innovation,
+    and scientific excellence spanning over 70 years.
+  </p>
+  <div class="hero-badge">
+    <div class="dot"></div>
+    EST. 1955 · SCIENCE IN HUMAN WELFARE
+  </div>
+  <div class="hero-scroll-indicator">
+    <span>SCROLL</span>
+    <div class="scroll-line"></div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section class="motto-section">
+  <div class="container">
+    <div class="motto-ring reveal">
+      <img src="images/NDSC_Logo_Redesign.png" alt="NDSC Logo"/>
+    </div>
+    <h2 class="motto-quote reveal reveal-delay-1">
+      Notre Dame<br/><span class="highlight">Notre Dame Science Club</span>
+    </h2>
+
+    <div class="motto-desc reveal reveal-delay-2">
+      <p>Notre Dame Science Club, also known as <strong>NDSC</strong>, the most promising, versatile, and eminent co-curricular activities club of Notre Dame College, began its inception in <strong>1955</strong> to ignite a passion for science among students. It is the <strong>pioneer of Notre Dame Science Club in the Sub-Continent</strong>. 'Science in Human Welfare' holding this noble motto, the eminent scientist <strong>Fr. R.W. Timm C.S.C</strong>, inaugurated the flag of NDSC.</p>
+
+      <p>The NDSC has a long history of inspiring its followers to rediscover their innate passion for science by serving as the country's <strong>oldest and most prestigious scientific club</strong>. NDSC gives the necessary guidelines, and it's the trailblazer in spreading scientific awareness among the people. Science, with its enigma, is expected to enlighten the pupil's hearts, being led by this magnificent sanctuary of knowledge. We foster a love of science and an eagerness to learn more about the world's mysteries, touch the untouched, and see the unseen. For the last few decades, NDSC has turned into the most prominent club to organize numerous <strong>science fairs</strong>, the ultimate platform which facilitates the demonstration of the science projects by the students. These festivals have stimulated the students' passion to a great extent to nourish their interest and quench the thirst to show their excellence.</p>
+
+      <p>Besides, the various Events and Competitions have also brought the very best of the people and have provided the momentum to research for advanced knowledge, other than the plain bookish knowledge. The official quiz teams of Notre Dame Science Club, the <strong>"NDC Blue" "NDC Green" &amp; "NDC Gold"</strong>, are the prestigious platforms for the quizzers; who are working relentlessly to uphold the glory of quizzing. The teams have won numerous prizes, bringing fame to our institution.</p>
+
+      <p>In addition, every year, distinguished members of Notre Dame Science Club compete in <strong>international science fairs</strong> and bring testimony to the institution. Notre Dame Science Club has earned profound respect in the international arena by the commendable performance of its fellows. Run by experienced and eloquent moderators, NDSC will be the pioneer in our science movement and will upgrade the noble cause of promoting science in every sphere of our life.</p>
+    </div>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<script>
+  const canvas = document.getElementById('starfield');
+  const ctx    = canvas.getContext('2d');
+  let stars    = [];
+
+  function resize() { canvas.width = window.innerWidth; canvas.height = window.innerHeight; }
+  resize();
+  window.addEventListener('resize', () => { resize(); initStars(); });
+
+  function initStars() {
+    stars = [];
+    const count = Math.floor((canvas.width * canvas.height) / 4000);
+    for (let i = 0; i < count; i++) {
+      stars.push({ x: Math.random() * canvas.width, y: Math.random() * canvas.height, r: Math.random() * 1.2 + 0.2, o: Math.random() * 0.7 + 0.1, speed: Math.random() * 0.3 + 0.05, twinkle: Math.random() * Math.PI * 2 });
+    }
+  }
+  initStars();
+
+  function drawStars() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    stars.forEach(s => {
+      s.twinkle += 0.015;
+      const alpha = s.o * (0.5 + 0.5 * Math.sin(s.twinkle));
+      ctx.beginPath(); ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(200, 230, 255, ${alpha})`; ctx.fill();
+      s.y -= s.speed * 0.05;
+      if (s.y < 0) { s.y = canvas.height; s.x = Math.random() * canvas.width; }
+    });
+    requestAnimationFrame(drawStars);
+  }
+  requestAnimationFrame(drawStars);
+
+  const particleContainer = document.getElementById('particles');
+  for (let i = 0; i < 30; i++) {
+    const p = document.createElement('div');
+    p.className = 'particle';
+    p.style.setProperty('--x', Math.random() * 100 + '%');
+    p.style.setProperty('--dur', (Math.random() * 15 + 10) + 's');
+    p.style.setProperty('--delay', (Math.random() * 15) + 's');
+    p.style.width = (Math.random() * 2 + 1) + 'px';
+    p.style.height = p.style.width;
+    particleContainer.appendChild(p);
+  }
+
+  const reveals = document.querySelectorAll('.reveal');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  reveals.forEach(el => observer.observe(el));
+
+  const statObserver = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.querySelectorAll('[data-target]').forEach(n => {
+          let start = 0; const target = parseInt(n.dataset.target);
+          const step = target / (1800 / 16);
+          const suffix = target === 1000 ? '+' : (target === 1 ? 'st' : '');
+          const timer = setInterval(() => { start = Math.min(start + step, target); n.textContent = Math.floor(start) + suffix; if (start >= target) clearInterval(timer); }, 16);
+        });
+        statObserver.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.3 });
+  document.querySelectorAll('.history-stats').forEach(el => statObserver.observe(el));
+
+  let trail = [];
+  document.addEventListener('mousemove', (e) => {
+    const dot = document.createElement('div');
+    dot.style.cssText = `position:fixed;left:${e.clientX}px;top:${e.clientY}px;width:4px;height:4px;border-radius:50%;background:#00d4ff;pointer-events:none;z-index:9999;transform:translate(-50%,-50%);opacity:0.6;transition:opacity 0.5s;`;
+    document.body.appendChild(dot); trail.push(dot);
+    setTimeout(() => { dot.style.opacity = '0'; }, 50);
+    setTimeout(() => { dot.remove(); trail = trail.filter(d => d !== dot); }, 600);
+  });
+</script>
+  <div id="footer-placeholder"></div>
+  <script src="js/footer.js"></script>
+</body>
+</html>

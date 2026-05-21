@@ -9,20 +9,26 @@ body{
 header:not(.site-header) { display: none; }
 .logo img { display: none; }
 
-/* PATRON SECTION */
-.patron-section{
-  position: relative;
-  bottom: 80px;
+/* Principal Section */
+.principal-section{
   display:flex;
   justify-content:center;
+  align-items:center;
+  padding-top:40px;
+}
+/* PATRON SECTION */
+.patron-section{
+  display:flex;
+  justify-content:center;
+  align-items:center;
   gap:100px;
-  padding:65px 0;
-  flex-direction: column;
+  padding:40px 0 65px;
+  flex-wrap:wrap;
 }
 .patron{
   justify-content: center;align-items: center;
-    display: flex;
-  flex-direction: column;
+  flex-direction: column;  
+  display: flex;
 }
 .patron img{
   width:250px;
@@ -324,7 +330,23 @@ body {
   }
   .year-buttons {
     width: 100%;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: #00d4ff transparent;
+    padding-bottom: 10px;
+  }
+  .year-buttons::-webkit-scrollbar {
+    height: 4px;
+    display: block;
+  }
+  .year-buttons::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .year-buttons::-webkit-scrollbar-thumb {
+    background: #00d4ff;
+    border-radius: 4px;
   }
 }
 
@@ -342,11 +364,29 @@ body {
     font-size: 26px;
   }
   .year-buttons {
-    gap: 12px;
+    gap: 8px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: #00d4ff transparent;
+    padding-bottom: 10px;
+  }
+  .year-buttons::-webkit-scrollbar {
+    height: 4px;
+    display: block;
+  }
+  .year-buttons::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  .year-buttons::-webkit-scrollbar-thumb {
+    background: #00d4ff;
+    border-radius: 4px;
   }
   .year-btn {
     padding: 12px 14px;
     font-size: 13px;
+    flex-shrink: 0;
   }
   .modal-content {
     width: 90%;

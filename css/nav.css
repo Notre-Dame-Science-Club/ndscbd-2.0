@@ -10,7 +10,7 @@
   left: 0;
   width: 100%;
   z-index: 9000;
-  transition: background 0.4s, backdrop-filter 0.4s;
+  transition: 0.4s, backdrop-filter 0.4s;
 }
 
 .site-header.scrolled {

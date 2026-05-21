@@ -2,8 +2,8 @@
 
 .space-footer{
 position:relative;
-background:rgba(0,0,30,0.17);
-backdrop-filter:blur(6px);
+background: transparent;
+backdrop-filter: blur(15px);
 padding:80px 20px 40px;
 color:white;
 overflow:hidden;
