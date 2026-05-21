@@ -577,11 +577,11 @@ window.PANELS = [
       { name: "Abrar Faiyaz",        position: "President", department: "LWS",             image:"pr(lws)-23.jpg", social: {} },
       { name: "Hasibul Alam",        position: "President", department: "ICT",             image:"pr(ict)-23.jpg", social: { telegram: "https://wa.me/+8801552494638", linkedin: "https://www.linkedin.com/in/hasibul-alam-prionto-1083aa254" } },
       { name: "Rokon Yeamony",       position: "Associate General Secretary",               image: "ags-23.jpg",       social: {} },
-      { name: "Nayon Roy",           position: "Senior Vice President",                    image:"svp-23.jpg", social: {} },
+      { name: "Noor Alam Rohan",           position: "Senior Vice President",                    image:"svp-23.jpg", social: {} },
       { name: "Sadman Al Jami",      position: "Vice President", department: "Project",    image:"vp-project-23.jpg", social: {} },
       { name: "Fahmid Alam",         position: "Vice President", department: "Publication", image:"vp(pub)-23.jpg", social: {} },
       { name: "Sadman Shahriar",     position: "Vice President", department: "LWS",        image:"vp(lws)-23.jpg", social: {} },
-      { name: "Araktim Khan",        position: "Vice President", department: "ICT",        image:"vp(ict)-23.jpg", social: {} },
+      { name: "Sudad Hasanat Salim",        position: "Vice President", department: "ICT",        image:"vp(ict)-23.jpg", social: {} },
       { name: "Mashrafi Al Farazi",        position: "Library Secretary", department: "Library",        image:"sec(library)-23.jpg", social: {} }
     ]
   },
