@@ -20,11 +20,241 @@
  */
 
 window.PANELS = [
-
+  //--2025-2026────────────────────────────────────────────────────────────
+    {
+    "label": "2025-2026",
+    "folder": "images/panel26",
+    "members": [
+      {
+        "name": "Fahim Faisal Arnob",
+        "position": "General Secretary",
+        "department": "",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Md. Ridwanul alam Bhuiyan",
+        "position": "Associate General Secretary",
+        "department": "",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Sheikh Musfikur Rahman",
+        "position": "President",
+        "department": "Administration",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Md. Nafisur Rahman",
+        "position": "President",
+        "department": "Project",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "F.M.Tamim Hasan",
+        "position": "President",
+        "department": "Publication",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Sadit Hossain Safa",
+        "position": "President",
+        "department": "LWS",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Arafa Al Nuhash",
+        "position": "President",
+        "department": "ICT",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Raik Sadik",
+        "position": "President",
+        "department": "Quiz",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Sameul Momenine",
+        "position": "Senior Vice President",
+        "department": "",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Aminul Islam Shanto",
+        "position": "Vice President",
+        "department": "Project",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Jaber Al Hasan",
+        "position": "Vice President",
+        "department": "LWS",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Md. Fuad Hassan",
+        "position": "Vice President",
+        "department": "Publication",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Akhier Ahmed Joy",
+        "position": "Vice President",
+        "department": "ICT",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "B.M. Abidul Momanin",
+        "position": "Vice President",
+        "department": "Quiz",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Abdullah Al Mahmud",
+        "position": "Assistant General Secretary",
+        "department": "R&D",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Muhtasim Muhib",
+        "position": "Assistant General Secretary",
+        "department": "R&D",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Zulfik Amin Zarif",
+        "position": "Assistant General Secretary",
+        "department": "R&D",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Md.Yeamin Hossain",
+        "position": "Organizing Secretary",
+        "department": "",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Tanvir Hasan",
+        "position": "Project Secretary",
+        "department": "",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Iftakhar Mahmud",
+        "position": "Project Secretary",
+        "department": "",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Hasib sikder",
+        "position": "Project Secretary",
+        "department": "",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Md. Julkar Nayeem",
+        "position": "ICT Secretary",
+        "department": "",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Shahriar Momin",
+        "position": "Office Secretary",
+        "department": "",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Md. Najib Mahmud",
+        "position": "Library Secretary",
+        "department": "",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Samiul Al Abir",
+        "position": "Workshop Secretary",
+        "department": "",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Alamin Kawser Abeg",
+        "position": "Seminar Secretary",
+        "department": "",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Sadnan Samiun Rupom",
+        "position": "Tour & Communication Secretary",
+        "department": "",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      },
+      {
+        "name": "Mahbubur Rahman Lin",
+        "position": "Entertainment secretary",
+        "department": "",
+        "bio": "Dedicated leader of the club.",
+        "image": "GS.png",
+        "social": {}
+      }
+    ]
+  },
   // ── 2024-2025 ─────────────────────────────────────────────────────────────
   {
     label: "2024-2025",
-    folder: "images",
+    folder: "images/panel-25",
     members: [
       {
         name: "Sreejoy Roy Ankon",
