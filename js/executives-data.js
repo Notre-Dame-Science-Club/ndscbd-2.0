@@ -23,14 +23,14 @@ window.PANELS = [
   //--2025-2026────────────────────────────────────────────────────────────
     {
     "label": "2025-2026",
-    "folder": "images/panel26",
+    "folder": "images/panel-26",
     "members": [
       {
         "name": "Fahim Faisal Arnob",
         "position": "General Secretary",
         "department": "",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "gs.jpg",
         "social": {}
       },
       {
@@ -38,7 +38,7 @@ window.PANELS = [
         "position": "Associate General Secretary",
         "department": "",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "Ridwan.jpg",
         "social": {}
       },
       {
@@ -46,7 +46,18 @@ window.PANELS = [
         "position": "President",
         "department": "Administration",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "sk_mushfik.png",
+        "social": {
+          facebook:"https://www.facebook.com/skmusfik.rahman?mibextid=ZbWKwL",
+          whatsapp:"https://wa.me/8801752745685"
+        }
+      },
+      {
+        "name": "F.M.Tamim Hasan",
+        "position": "President",
+        "department": "Publication",
+        "bio": "Dedicated leader of the club.",
+        "image": "Tamim_Hasan.jpg",
         "social": {}
       },
       {
@@ -54,15 +65,7 @@ window.PANELS = [
         "position": "President",
         "department": "Project",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
-        "social": {}
-      },
-      {
-        "name": "F.M.Tamim Hasan",
-        "position": "President",
-        "department": "Publication",
-        "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "Nafisur_Rahman_Sohail.jpg",
         "social": {}
       },
       {
@@ -70,7 +73,7 @@ window.PANELS = [
         "position": "President",
         "department": "LWS",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "Sadit_Hossain_Safa.jpg",
         "social": {}
       },
       {
@@ -78,7 +81,7 @@ window.PANELS = [
         "position": "President",
         "department": "ICT",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "Nuhash.jpg",
         "social": {}
       },
       {
@@ -86,7 +89,7 @@ window.PANELS = [
         "position": "President",
         "department": "Quiz",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "raik_sadik.jpeg",
         "social": {}
       },
       {
@@ -94,7 +97,7 @@ window.PANELS = [
         "position": "Senior Vice President",
         "department": "",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "sameul_momenine.jpeg",
         "social": {}
       },
       {
@@ -102,7 +105,7 @@ window.PANELS = [
         "position": "Vice President",
         "department": "Project",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "Aminul_Islam_Shanto.jpg",
         "social": {}
       },
       {
@@ -110,7 +113,7 @@ window.PANELS = [
         "position": "Vice President",
         "department": "LWS",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "Jaber_Al_Hasan.jpg",
         "social": {}
       },
       {
@@ -118,7 +121,7 @@ window.PANELS = [
         "position": "Vice President",
         "department": "Publication",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "fuad.jpeg",
         "social": {}
       },
       {
@@ -126,7 +129,7 @@ window.PANELS = [
         "position": "Vice President",
         "department": "ICT",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "Akhier_Ahmed_Joy_.jpeg",
         "social": {}
       },
       {
@@ -142,7 +145,7 @@ window.PANELS = [
         "position": "Assistant General Secretary",
         "department": "R&D",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "Abdullah_Al_Mahmud_Emon.jpg",
         "social": {}
       },
       {
@@ -150,7 +153,7 @@ window.PANELS = [
         "position": "Assistant General Secretary",
         "department": "R&D",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "Muhib.jpg",
         "social": {}
       },
       {
@@ -158,7 +161,7 @@ window.PANELS = [
         "position": "Assistant General Secretary",
         "department": "R&D",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "Zulfik_Amin_Zarif_.jpeg",
         "social": {}
       },
       {
@@ -166,7 +169,7 @@ window.PANELS = [
         "position": "Organizing Secretary",
         "department": "",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "Yeamin.jpg",
         "social": {}
       },
       {
@@ -174,7 +177,7 @@ window.PANELS = [
         "position": "Project Secretary",
         "department": "",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "tanvir.jpeg",
         "social": {}
       },
       {
@@ -182,7 +185,7 @@ window.PANELS = [
         "position": "Project Secretary",
         "department": "",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "Iftekhar_Mahmud_Ornob.jpg",
         "social": {}
       },
       {
@@ -190,7 +193,7 @@ window.PANELS = [
         "position": "Project Secretary",
         "department": "",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "Hasib.jpg",
         "social": {}
       },
       {
@@ -198,7 +201,7 @@ window.PANELS = [
         "position": "ICT Secretary",
         "department": "",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "Md_Julkar_Nayeem.png",
         "social": {}
       },
       {
@@ -206,7 +209,7 @@ window.PANELS = [
         "position": "Office Secretary",
         "department": "",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "shahriar.jpeg",
         "social": {}
       },
       {
@@ -214,7 +217,7 @@ window.PANELS = [
         "position": "Library Secretary",
         "department": "",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "Najib_Mahmud_Nabil.jpg",
         "social": {}
       },
       {
@@ -222,7 +225,7 @@ window.PANELS = [
         "position": "Workshop Secretary",
         "department": "",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "Samiul_Al_Abir.jpg",
         "social": {}
       },
       {
@@ -230,7 +233,7 @@ window.PANELS = [
         "position": "Seminar Secretary",
         "department": "",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "Abeg.jpg",
         "social": {}
       },
       {
@@ -238,7 +241,7 @@ window.PANELS = [
         "position": "Tour & Communication Secretary",
         "department": "",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "sadman_samiun_rupom.jpeg",
         "social": {}
       },
       {
@@ -246,7 +249,7 @@ window.PANELS = [
         "position": "Entertainment secretary",
         "department": "",
         "bio": "Dedicated leader of the club.",
-        "image": "GS.png",
+        "image": "Mahbubur_Rahman_Lin.jpeg",
         "social": {}
       }
     ]
