@@ -31,7 +31,7 @@ window.PANELS = [
         "department": "",
         "bio": "Dedicated leader of the club.",
         "image": "gs.jpg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801568171970", facebook:"https://www.facebook.com/thebrandisArnob"}
       },
       {
         "name": "Md. Ridwanul alam Bhuiyan",
@@ -39,7 +39,7 @@ window.PANELS = [
         "department": "",
         "bio": "Dedicated leader of the club.",
         "image": "Ridwan.jpg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801770439038"}
       },
       {
         "name": "Sheikh Musfikur Rahman",
@@ -58,7 +58,7 @@ window.PANELS = [
         "department": "Publication",
         "bio": "Dedicated leader of the club.",
         "image": "Tamim_Hasan.jpg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801932521712"}
       },
       {
         "name": "Md. Nafisur Rahman",
@@ -66,15 +66,16 @@ window.PANELS = [
         "department": "Project",
         "bio": "Dedicated leader of the club.",
         "image": "Nafisur_Rahman_Sohail.jpg",
-        "social": {}
-      },
+        "social": {whatsapp:"https://wa.me/8801307276585"}
+        },
+      
       {
         "name": "Sadit Hossain Safa",
         "position": "President",
         "department": "LWS",
         "bio": "Dedicated leader of the club.",
         "image": "Sadit_Hossain_Safa.jpg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801310136826"}
       },
       {
         "name": "Arafa Al Nuhash",
@@ -82,7 +83,7 @@ window.PANELS = [
         "department": "ICT",
         "bio": "Dedicated leader of the club.",
         "image": "Nuhash.jpg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801919625644"}
       },
       {
         "name": "Raik Sadik",
@@ -90,7 +91,7 @@ window.PANELS = [
         "department": "Quiz",
         "bio": "Dedicated leader of the club.",
         "image": "raik_sadik.jpeg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801841075575"}
       },
       {
         "name": "Sameul Momenine",
@@ -98,7 +99,7 @@ window.PANELS = [
         "department": "",
         "bio": "Dedicated leader of the club.",
         "image": "sameul_momenine.jpeg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801739622448"}
       },
       {
         "name": "Aminul Islam Shanto",
@@ -106,7 +107,7 @@ window.PANELS = [
         "department": "Project",
         "bio": "Dedicated leader of the club.",
         "image": "Aminul_Islam_Shanto.jpg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801798309973"}
       },
       {
         "name": "Jaber Al Hasan",
@@ -114,7 +115,7 @@ window.PANELS = [
         "department": "LWS",
         "bio": "Dedicated leader of the club.",
         "image": "Jaber_Al_Hasan.jpg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801844216547"}
       },
       {
         "name": "Md. Fuad Hassan",
@@ -122,7 +123,7 @@ window.PANELS = [
         "department": "Publication",
         "bio": "Dedicated leader of the club.",
         "image": "fuad.jpeg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801759361704"}
       },
       {
         "name": "Akhier Ahmed Joy",
@@ -130,7 +131,7 @@ window.PANELS = [
         "department": "ICT",
         "bio": "Dedicated leader of the club.",
         "image": "Akhier_Ahmed_Joy_.jpeg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801532519568"}
       },
       {
         "name": "B.M. Abidul Momanin",
@@ -138,7 +139,7 @@ window.PANELS = [
         "department": "Quiz",
         "bio": "Dedicated leader of the club.",
         "image": "GS.png",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801622001562"}
       },
       {
         "name": "Abdullah Al Mahmud",
@@ -146,7 +147,7 @@ window.PANELS = [
         "department": "R&D",
         "bio": "Dedicated leader of the club.",
         "image": "Abdullah_Al_Mahmud_Emon.jpg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801971313169"}
       },
       {
         "name": "Muhtasim Muhib",
@@ -154,7 +155,7 @@ window.PANELS = [
         "department": "R&D",
         "bio": "Dedicated leader of the club.",
         "image": "Muhib.jpg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801890262333"}
       },
       {
         "name": "Zulfik Amin Zarif",
@@ -162,7 +163,7 @@ window.PANELS = [
         "department": "R&D",
         "bio": "Dedicated leader of the club.",
         "image": "Zulfik_Amin_Zarif_.jpeg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801849415131"}
       },
       {
         "name": "Md.Yeamin Hossain",
@@ -170,7 +171,7 @@ window.PANELS = [
         "department": "",
         "bio": "Dedicated leader of the club.",
         "image": "Yeamin.jpg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801536207663"}
       },
       {
         "name": "Tanvir Hasan",
@@ -178,7 +179,7 @@ window.PANELS = [
         "department": "",
         "bio": "Dedicated leader of the club.",
         "image": "tanvir.jpeg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801922508147"}
       },
       {
         "name": "Iftakhar Mahmud",
@@ -186,7 +187,7 @@ window.PANELS = [
         "department": "",
         "bio": "Dedicated leader of the club.",
         "image": "Iftekhar_Mahmud_Ornob.jpg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801703767055"}
       },
       {
         "name": "Hasib sikder",
@@ -194,7 +195,7 @@ window.PANELS = [
         "department": "",
         "bio": "Dedicated leader of the club.",
         "image": "Hasib.jpg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801954535403"}
       },
       {
         "name": "Md. Julkar Nayeem",
@@ -202,7 +203,7 @@ window.PANELS = [
         "department": "",
         "bio": "Dedicated leader of the club.",
         "image": "Md_Julkar_Nayeem.png",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801712249456"}
       },
       {
         "name": "Shahriar Momin",
@@ -210,7 +211,7 @@ window.PANELS = [
         "department": "",
         "bio": "Dedicated leader of the club.",
         "image": "shahriar.jpeg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801848677213"}
       },
       {
         "name": "Md. Najib Mahmud",
@@ -218,7 +219,7 @@ window.PANELS = [
         "department": "",
         "bio": "Dedicated leader of the club.",
         "image": "Najib_Mahmud_Nabil.jpg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801918470995"}
       },
       {
         "name": "Samiul Al Abir",
@@ -226,7 +227,7 @@ window.PANELS = [
         "department": "",
         "bio": "Dedicated leader of the club.",
         "image": "Samiul_Al_Abir.jpg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801540524763"}
       },
       {
         "name": "Alamin Kawser Abeg",
@@ -234,7 +235,7 @@ window.PANELS = [
         "department": "",
         "bio": "Dedicated leader of the club.",
         "image": "Abeg.jpg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801826002285"}
       },
       {
         "name": "Sadnan Samiun Rupom",
@@ -242,7 +243,7 @@ window.PANELS = [
         "department": "",
         "bio": "Dedicated leader of the club.",
         "image": "sadman_samiun_rupom.jpeg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/8801976742577"}
       },
       {
         "name": "Mahbubur Rahman Lin",
@@ -250,7 +251,7 @@ window.PANELS = [
         "department": "",
         "bio": "Dedicated leader of the club.",
         "image": "Mahbubur_Rahman_Lin.jpeg",
-        "social": {}
+        "social": {whatsapp:"https://wa.me/88"}
       }
     ]
   },
@@ -593,7 +594,7 @@ window.PANELS = [
       { name: "Abrar Mahmuh Hasan",   position: "General Secretary",           image:"gs-22.jpg"  ,             social: {} },
       { name: "Raihan Mehedi",            position: "President", department: "Administration",  image:"pr(admin)-22.jpg",  social: {} },
       { name: "Mohammad Rafidul Islam",          position: "President", department: "Project",  image:"pr(project)-22.jpg"    ,     social: {} },
-      { name: "MD. Shahriar Hamim",          position: "President", department: "Publication",  image:"pr(pub)-22.jpg",       social: {} },
+      { name: "Noor Alam Rohan",          position: "President", department: "Publication",  image:"pr(pub)-22.jpg",       social: {} },
       { name: "Mahadi Mohammad Bhuiyan",         position: "President", department: "LWS",      image:"pr(lws)-22.jpg",         social: {} },
       { name: "Hasibul Alam",         position: "President", department: "ICT",               social: { whatsapp: "https://wa.me/+8801552494638", linkedin: "https://www.linkedin.com/in/hasibul-alam-prionto-1083aa254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } },
       { name: "Md. Jubayer Islam",    position: "Associate General Secretary",                social: {} },
