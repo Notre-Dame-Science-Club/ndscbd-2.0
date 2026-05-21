@@ -596,7 +596,7 @@ window.PANELS = [
       { name: "Mohammad Rafidul Islam",          position: "President", department: "Project",  image:"pr(project)-22.jpg"    ,     social: {} },
       { name: "Noor Alam Rohan",          position: "President", department: "Publication",  image:"pr(pub)-22.jpg",       social: {} },
       { name: "Mahadi Mohammad Bhuiyan",         position: "President", department: "LWS",      image:"pr(lws)-22.jpg",         social: {} },
-      { name: "Hasibul Alam",         position: "President", department: "ICT",               social: { whatsapp: "https://wa.me/+8801552494638", linkedin: "https://www.linkedin.com/in/hasibul-alam-prionto-1083aa254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } },
+      { name: "Taosif Al Afnan",         position: "President", department: "ICT",               social: { whatsapp: "https://wa.me/+8801552494638", linkedin: "https://www.linkedin.com/in/hasibul-alam-prionto-1083aa254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } },
       { name: "Md. Jubayer Islam",    position: "Associate General Secretary",                social: {} },
       { name: "Noor Alam Rohan",            position: "Senior Vice President",                      social: {} },
       { name: "Sadman Al Jami",       position: "Vice President", department: "Project",      image:"vp(project)-22.jpg",  social: {} },
