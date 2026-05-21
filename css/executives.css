@@ -263,6 +263,7 @@ h1 span{
     align-items: center;
     justify-content: center;
     transition: 0.3s;
+    text-decoration: none;
 }
 
 .social-icons a:hover {

@@ -4,9 +4,7 @@
     { href: 'activities.html', label: 'Activities' },
     { href: 'publication.html', label: 'Publication' },
     { href: 'executives.html', label: 'Executives' },
-    { href: 'about.html', label: 'About' },
-
-    {href: 'https://asf25.ndscbd.net/', label: 'Science Fest', class:'fest-nav-btn'},
+    // {href: 'https://asf25.ndscbd.net/', label: 'Science Fest', class:'fest-nav-btn'},
   ];
 
   const current = window.location.pathname.split('/').pop() || 'index.html';
