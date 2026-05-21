@@ -1,6 +1,7 @@
 (function() {
   const pages = [
     { href: 'index.html', label: 'Home' },
+    { href: 'about.html', label: 'About us' },
     { href: 'activities.html', label: 'Activities' },
     { href: 'publication.html', label: 'Publication' },
     { href: 'executives.html', label: 'Executives' },
