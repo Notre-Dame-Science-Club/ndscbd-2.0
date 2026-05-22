@@ -31,7 +31,7 @@ window.PANELS = [
         "department": "",
         "bio": "Dedicated leader of the club.",
         "image": "gs.jpg",
-        "social": {whatsapp:"https://wa.me/8801568171970", facebook:"https://www.facebook.com/thebrandisArnob"}
+        "social": {whatsapp:"https://wa.me/8801568171970", facebook:"https://www.facebook.com/thebrandisArnob", email:"arnob@ndscbd.net"}
       },
       {
         "name": "Md. Ridwanul alam Bhuiyan",
