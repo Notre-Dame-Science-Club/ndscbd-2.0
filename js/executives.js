@@ -29,6 +29,7 @@
       { key: 'whatsapp',  icon: 'fa-whatsapp'   },
       { key: 'telegram',  icon: 'fa-telegram'   },
       { key: 'linkedin',  icon: 'fa-linkedin-in' },
+      { key: 'email',  icon: 'fa fa-envelope' }
     ];
     const links = platforms
       .filter(p => social && social[p.key] && social[p.key].trim() !== '')
