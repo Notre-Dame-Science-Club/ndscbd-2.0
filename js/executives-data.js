@@ -31,7 +31,7 @@ window.PANELS = [
         "department": "",
         "bio": "Dedicated leader of the club.",
         "image": "gs.jpg",
-        "social": {whatsapp:"https://wa.me/8801568171970", facebook:"https://www.facebook.com/thebrandisArnob", email:"arnob@ndscbd.net"}
+        "social": {whatsapp:"https://wa.me/8801568171970", facebook:"https://www.facebook.com/thebrandisArnob", email:"mailto:arnob@ndscbd.net"}
       },
       {
         "name": "Md. Ridwanul alam Bhuiyan",
@@ -264,7 +264,7 @@ window.PANELS = [
         name: "Sreejoy Roy Ankon",
         position: "General Secretary",
         bio: "Dedicated leader of the club.",
-        image: "panel25/gs.jpg",
+        image: "gs.jpg",
         social: {
           facebook: "https://www.facebook.com/sreejoy.roy.ankon",
           instagram: "https://www.instagram.com/__.sreejoy.__13?igsh=MXNzemNxNzE4eG9nOA==",
@@ -290,7 +290,7 @@ window.PANELS = [
         position: "President",
         department: "Administration",
         bio: "Dedicated leader of the club.",
-        image: "panel25/p_adm.jpg",
+        image: "p_adm.jpg",
         social: {
           facebook: "https://www.facebook.com/share/1DzBDhNQYz/",
           instagram: "https://www.instagram.com/afnan_6575?igsh=MWZjZHd4bmpqYWhsdQ==",
@@ -303,7 +303,7 @@ window.PANELS = [
         position: "President",
         department: "Publication",
         bio: "Dedicated leader of the club.",
-        image: "panel25/p_pub.jpg",
+        image: "p_pub.jpg",
         social: {
           facebook: "https://facebook.com",
           instagram: "https://instagram.com",
@@ -316,7 +316,7 @@ window.PANELS = [
         position: "President",
         department: "Project",
         bio: "Dedicated leader of the club.",
-        image: "panel25/p_prj.jpg",
+        image: "p_prj.jpg",
         social: {
           facebook: "https://www.facebook.com/saqlain.mustak.borshon",
           instagram: "https://www.instagram.com/p/DUifQTaEzbnPF26h1PifjSsHyEvEy617IpqQd40/",
@@ -329,7 +329,7 @@ window.PANELS = [
         position: "President",
         department: "L.W.S.",
         bio: "Dedicated leader of the club.",
-        image: "panel25/p_lws.jpg",
+        image: "p_lws.jpg",
         social: {
           facebook: "https://www.facebook.com/share/1HhmPxhzS2/",
           instagram: "https://www.instagram.com/fateen__zaman?igsh=MW1zeTl4M3h3ODd0Zg==",
@@ -342,7 +342,7 @@ window.PANELS = [
         position: "President",
         department: "ICT",
         bio: "Dedicated leader of the club.",
-        image: "panel25/p_ict.jpg",
+        image: "p_ict.jpg",
         social: {
           facebook: "https://www.facebook.com/shantanu.paul.33449138",
           instagram: "https://instagram.com",
@@ -355,7 +355,7 @@ window.PANELS = [
         position: "President",
         department: "QUIZ",
         bio: "Dedicated leader of the club.",
-        image: "panel25/p_quiz.jpg",
+        image: "p_quiz.jpg",
         social: {
           facebook: "https://www.facebook.com/shantanu.paul.33449138",
           instagram: "https://instagram.com",
@@ -367,7 +367,7 @@ window.PANELS = [
         name: "Md. Mehedi Hasan Sweet",
         position: "Senior Vice President",
         bio: "Dedicated leader of the club.",
-        image: "panel25/svp.jpg",
+        image: "svp.jpg",
         social: {
           facebook: "https://www.facebook.com/mehedi.hasan.190907",
           instagram: "https://www.instagram.com/mehedii.hsn05/",
@@ -380,7 +380,7 @@ window.PANELS = [
         position: "Vice President",
         department: "Project",
         bio: "Dedicated leader of the club.",
-        image: "panel25/vp_prj.jpg",
+        image: "vp_prj.jpg",
         social: {
           facebook: "https://facebook.com",
           instagram: "https://instagram.com",
