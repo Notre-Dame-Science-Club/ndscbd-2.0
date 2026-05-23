@@ -176,7 +176,7 @@ window.PANELS = [
       {
         "name": "Tanvir Hasan",
         "position": "Project Secretary",
-        "department": "",
+        "department": "Project",
         "bio": "Dedicated leader of the club.",
         "image": "tanvir.jpeg",
         "social": {whatsapp:"https://wa.me/8801922508147"}
@@ -184,7 +184,7 @@ window.PANELS = [
       {
         "name": "Iftakhar Mahmud",
         "position": "Project Secretary",
-        "department": "",
+        "department": "Project",
         "bio": "Dedicated leader of the club.",
         "image": "Iftekhar_Mahmud_Ornob.jpg",
         "social": {whatsapp:"https://wa.me/8801703767055"}
@@ -192,15 +192,23 @@ window.PANELS = [
       {
         "name": "Hasib sikder",
         "position": "Project Secretary",
-        "department": "",
+        "department": "Project",
         "bio": "Dedicated leader of the club.",
         "image": "Hasib.jpg",
         "social": {whatsapp:"https://wa.me/8801954535403"}
       },
       {
+        "name": "Rishad Ar Rashid",
+        "position": "ICT Secretary",
+        "department": "ICT",
+        "bio": "Dedicated leader of the club.",
+        "image": "rishad.png",
+        "social": {whatsapp:"https://wa.me/8801772154705"}
+      },
+      {
         "name": "Md. Julkar Nayeem",
         "position": "ICT Secretary",
-        "department": "",
+        "department": "ICT",
         "bio": "Dedicated leader of the club.",
         "image": "Md_Julkar_Nayeem.png",
         "social": {whatsapp:"https://wa.me/8801712249456"}
@@ -591,18 +599,28 @@ window.PANELS = [
     label: "2021-2022",
     folder: "images/panel-22",
     members: [
-      { name: "Abrar Mahmuh Hasan",   position: "General Secretary",           image:"gs-22.jpg"  ,             social: {} },
+      { name: "Abrar Mahmuh Hasan",       position: "General Secretary",                        image:"gs-22.jpg"  ,             social: {} },
+      { name: "Md. Jubayer Islam",        position: "Associate General Secretary",              image:"ags-22.jpg",  social: {} },
+      { name: "Fahad Mahmud",        position: "Assistant General Secretary",              image:"astgs_farhan.jpg",  social: {} },
+      { name: "MD Ibrahim Newaz Aupo",        position: "Assistant General Secretary",              image:"astgs_aupo.jpg",  social: {} },
       { name: "Raihan Mehedi",            position: "President", department: "Administration",  image:"pr(admin)-22.jpg",  social: {} },
-      { name: "Mohammad Rafidul Islam",          position: "President", department: "Project",  image:"pr(project)-22.jpg"    ,     social: {} },
-      { name: "Noor Alam Rohan",          position: "President", department: "Publication",  image:"pr(pub)-22.jpg",       social: {} },
-      { name: "Mahadi Mohammad Bhuiyan",         position: "President", department: "LWS",      image:"pr(lws)-22.jpg",         social: {} },
-      { name: "Taosif Al Afnan",         position: "President", department: "ICT",               social: { whatsapp: "https://wa.me/+8801552494638", linkedin: "https://www.linkedin.com/in/hasibul-alam-prionto-1083aa254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } },
-      { name: "Md. Jubayer Islam",    position: "Associate General Secretary",                social: {} },
-      { name: "Noor Alam Rohan",            position: "Senior Vice President",                      social: {} },
-      { name: "Sadman Al Jami",       position: "Vice President", department: "Project",      image:"vp(project)-22.jpg",  social: {} },
-      { name: "Fahmid Alam",          position: "Vice President", department: "Publication",  image:"vp(pub)-22.jpg",  social: {} },
-      { name: "Sadman Shahriar",      position: "Vice President", department: "LWS",          image:"vp(lws)-22.jpg",  social: {} },
-      { name: "Sudad Hasanat Salim",         position: "Vice President", department: "ICT",          image:"vp(ict)-22.jpg",  social: {} }
+      { name: "Mohammad Rafidul Islam",   position: "President", department: "Project",         image:"pr(project)-22.jpg"    ,     social: {} },
+      { name: "MD. Shahriar Hamim",       position: "President", department: "Publication",     image:"pr(pub)-22.jpg",       social: {} },
+      { name: "Mahadi Mohammad Bhuiyan",  position: "President", department: "LWS",             image:"pr(lws)-22.jpg",         social: {} },
+      { name: "Taosif Al Afnan",          position: "President", department: "ICT",             image:"pr(ict)-22.jpg",  social: { whatsapp: "https://wa.me/+8801552494638", linkedin: "https://www.linkedin.com/in/hasibul-alam-prionto-1083aa254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" } },
+      { name: "Noor Alam Rohan",          position: "Senior Vice President",                    image:"svp-22.jpg",  social: {} },
+      { name: "Talha Zubair",             position: "Vice President", department: "Project",     image:"vp(project)-22.jpg",  social: {} },
+      { name: "Riadus Salehin",           position: "Vice President", department: "Publication", image:"vp(pub)-22.jpg",  social: {} },
+      { name: "Azmain Muksit Anam",       position: "Vice President", department: "LWS",         image:"vp(lws)-22.jpg",  social: {} },
+      { name: "Sudad Hasanat Salim",      position: "Vice President", department: "ICT",         image:"vp(ict)-22.jpg",  social: {} },
+      { name: "Protik Banik",             position: "Seminar Secretary", department: "",         image:"seminar_sec.jpg",  social: {} },
+      { name: "Sadab Sadman Sarid",       position: "Publication Secretary", department: "",         image:"pub_sec.jpg",  social: {} },
+      { name: "Ridwan Islam",             position: "Project Secretary", department: "",         image:"project_sec.jpg",  social: {} },
+      { name: "Moniruzzaman Jishan",             position: "Library Secretary", department: "",         image:"lib_sec.jpg",  social: {} },
+      { name: "Sarjil Mahmud Khan",             position: "Organizing Secretary", department: "",         image:"org_sec.jpg",  social: {} },
+      { name: "Ashab Nahin Rownok",             position: "Tour Secretary", department: "",         image:"tour_sec.jpg",  social: {} },
+      { name: "Ahmmed Hussain Zinnurine",             position: "Entertainment Secretary", department: "",  image:"entertainment_sec.jpg",  social: {} }
+    
     ]
   },
 
