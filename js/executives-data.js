@@ -159,35 +159,35 @@ window.PANELS = [
       {
         "name": "Tanvir Hasan",
         "position": "Project Secretary",
-        "department": "Project",
+        "department": "",
         "image": "tanvir.jpeg",
         "social": {whatsapp:"https://wa.me/8801922508147"}
       },
       {
         "name": "Iftakhar Mahmud",
         "position": "Project Secretary",
-        "department": "Project",
+        "department": "",
         "image": "Iftekhar_Mahmud_Ornob.jpg",
         "social": {whatsapp:"https://wa.me/8801703767055"}
       },
       {
         "name": "Hasib sikder",
         "position": "Project Secretary",
-        "department": "Project",
+        "department": "",
         "image": "Hasib.jpg",
         "social": {whatsapp:"https://wa.me/8801954535403"}
       },
       {
         "name": "Rishad Ar Rashid",
         "position": "ICT Secretary",
-        "department": "ICT",
+        "department": "",
         "image": "rishad.jpeg",
         "social": {whatsapp:"https://wa.me/8801772154705"}
       },
       {
         "name": "Md. Julkar Nayeem",
         "position": "ICT Secretary",
-        "department": "ICT",
+        "department": "",
         "image": "Md_Julkar_Nayeem.png",
         "social": {whatsapp:"https://wa.me/8801712249456"}
       },
@@ -257,7 +257,7 @@ window.PANELS = [
         position: "Associate General Secretary",
         department: "Administration",
         bio: "Dedicated leader of the club.",
-        image: "panel25/ags.jpg",
+        image: "ags.jpg",
         social: {
           facebook: "https://www.facebook.com/share/1C9W3E7qVW/",
           instagram: "https://www.instagram.com/_.adi.tta._?igsh=OG15enR1MWJwNDhj",
@@ -399,7 +399,7 @@ window.PANELS = [
         position: "Vice President",
         department: "ICT",
         bio: "Dedicated leader of the club.",
-        image: "panel25/vp_ict.jpg",
+        image: "vp_ict.jpg",
         social: {
           facebook: "https://www.facebook.com/sheikhshadab.noor.9",
           instagram: "https://www.instagram.com/sheikhshadabnoor?igsh=NHRhOGw2eWtldmlq",
@@ -412,7 +412,7 @@ window.PANELS = [
         position: "Assistant General Secretary",
         department: "R&D",
         bio: "Dedicated leader of the club.",
-        image: "panel25/ags_rd.jpg",
+        image: "ags_rd.jpg",
         social: {
           facebook: "https://facebook.com",
           instagram: "https://instagram.com",
@@ -425,7 +425,7 @@ window.PANELS = [
         position: "Secretary",
         department: "Project",
         bio: "Dedicated leader of the club.",
-        image: "panel25/sec_prj.jpg",
+        image: "sec_prj.jpg",
         social: {
           facebook: "https://facebook.com",
           instagram: "https://instagram.com",
@@ -437,7 +437,7 @@ window.PANELS = [
         name: "Aritra Chakraborty Argha",
         position: "Organizing Secretary",
         bio: "Dedicated professional.",
-        image: "panel25/s_org.jpg",
+        image: "s_org.jpg",
         social: {
           facebook: "https://www.facebook.com/aritra.chakraborty.731135",
           instagram: "https://www.instagram.com/_.aritra._un/",
@@ -473,7 +473,7 @@ window.PANELS = [
         name: "Md. Muballig Rahman Sarkar",
         position: "Seminar Secretary",
         bio: "Dedicated leader of the club.",
-        image: "panel25/s_semi.jpg",
+        image: "s_semi.jpg",
         social: {
           facebook: "https://www.facebook.com/muballig.rahman.sarkar",
           instagram: "https://instagram.com",
