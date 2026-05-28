@@ -37,7 +37,6 @@ window.PANELS = [
         "name": "Md. Ridwanul alam Bhuiyan",
         "position": "Associate General Secretary",
         "department": "",
-        "bio": "Dedicated leader of the club.",
         "image": "Ridwan.jpg",
         "social": {whatsapp:"https://wa.me/8801770439038"}
       },
@@ -45,7 +44,6 @@ window.PANELS = [
         "name": "Sheikh Musfikur Rahman",
         "position": "President",
         "department": "Administration",
-        "bio": "Dedicated leader of the club.",
         "image": "sk_mushfik.png",
         "social": {
           facebook:"https://www.facebook.com/skmusfik.rahman?mibextid=ZbWKwL",
@@ -56,7 +54,6 @@ window.PANELS = [
         "name": "F.M.Tamim Hasan",
         "position": "President",
         "department": "Publication",
-        "bio": "Dedicated leader of the club.",
         "image": "Tamim_Hasan.jpg",
         "social": {whatsapp:"https://wa.me/8801932521712"}
       },
@@ -64,7 +61,6 @@ window.PANELS = [
         "name": "Md. Nafisur Rahman",
         "position": "President",
         "department": "Project",
-        "bio": "Dedicated leader of the club.",
         "image": "Nafisur_Rahman_Sohail.jpg",
         "social": {whatsapp:"https://wa.me/8801307276585"}
         },
@@ -73,7 +69,6 @@ window.PANELS = [
         "name": "Sadit Hossain Safa",
         "position": "President",
         "department": "LWS",
-        "bio": "Dedicated leader of the club.",
         "image": "Sadit_Hossain_Safa.jpg",
         "social": {whatsapp:"https://wa.me/8801310136826"}
       },
@@ -81,7 +76,6 @@ window.PANELS = [
         "name": "Arafa Al Nuhash",
         "position": "President",
         "department": "ICT",
-        "bio": "Dedicated leader of the club.",
         "image": "Nuhash.jpg",
         "social": {whatsapp:"https://wa.me/8801919625644"}
       },
@@ -89,7 +83,6 @@ window.PANELS = [
         "name": "Raik Sadik",
         "position": "President",
         "department": "Quiz",
-        "bio": "Dedicated leader of the club.",
         "image": "raik_sadik.jpeg",
         "social": {whatsapp:"https://wa.me/8801841075575"}
       },
@@ -97,7 +90,6 @@ window.PANELS = [
         "name": "Sameul Momenine",
         "position": "Senior Vice President",
         "department": "",
-        "bio": "Dedicated leader of the club.",
         "image": "sameul_momenine.jpeg",
         "social": {whatsapp:"https://wa.me/8801739622448"}
       },
@@ -105,7 +97,6 @@ window.PANELS = [
         "name": "Aminul Islam Shanto",
         "position": "Vice President",
         "department": "Project",
-        "bio": "Dedicated leader of the club.",
         "image": "Aminul_Islam_Shanto.jpg",
         "social": {whatsapp:"https://wa.me/8801798309973"}
       },
@@ -113,7 +104,6 @@ window.PANELS = [
         "name": "Jaber Al Hasan",
         "position": "Vice President",
         "department": "LWS",
-        "bio": "Dedicated leader of the club.",
         "image": "Jaber_Al_Hasan.jpg",
         "social": {whatsapp:"https://wa.me/8801844216547"}
       },
@@ -121,7 +111,6 @@ window.PANELS = [
         "name": "Md. Fuad Hassan",
         "position": "Vice President",
         "department": "Publication",
-        "bio": "Dedicated leader of the club.",
         "image": "fuad.jpeg",
         "social": {whatsapp:"https://wa.me/8801759361704"}
       },
@@ -129,7 +118,6 @@ window.PANELS = [
         "name": "Akhier Ahmed Joy",
         "position": "Vice President",
         "department": "ICT",
-        "bio": "Dedicated leader of the club.",
         "image": "Akhier_Ahmed_Joy_.jpeg",
         "social": {whatsapp:"https://wa.me/8801532519568"}
       },
@@ -137,7 +125,6 @@ window.PANELS = [
         "name": "B.M. Abidul Momanin",
         "position": "Vice President",
         "department": "Quiz",
-        "bio": "Dedicated leader of the club.",
         "image": "GS.png",
         "social": {whatsapp:"https://wa.me/8801622001562"}
       },
@@ -145,7 +132,6 @@ window.PANELS = [
         "name": "Abdullah Al Mahmud",
         "position": "Assistant General Secretary",
         "department": "R&D",
-        "bio": "Dedicated leader of the club.",
         "image": "Abdullah_Al_Mahmud_Emon.jpg",
         "social": {whatsapp:"https://wa.me/8801971313169"}
       },
@@ -153,7 +139,6 @@ window.PANELS = [
         "name": "Muhtasim Muhib",
         "position": "Assistant General Secretary",
         "department": "R&D",
-        "bio": "Dedicated leader of the club.",
         "image": "Muhib.jpg",
         "social": {whatsapp:"https://wa.me/8801890262333"}
       },
@@ -161,7 +146,6 @@ window.PANELS = [
         "name": "Zulfik Amin Zarif",
         "position": "Assistant General Secretary",
         "department": "R&D",
-        "bio": "Dedicated leader of the club.",
         "image": "Zulfik_Amin_Zarif_.jpeg",
         "social": {whatsapp:"https://wa.me/8801849415131"}
       },
@@ -169,7 +153,6 @@ window.PANELS = [
         "name": "Md.Yeamin Hossain",
         "position": "Organizing Secretary",
         "department": "",
-        "bio": "Dedicated leader of the club.",
         "image": "Yeamin.jpg",
         "social": {whatsapp:"https://wa.me/8801536207663"}
       },
@@ -177,7 +160,6 @@ window.PANELS = [
         "name": "Tanvir Hasan",
         "position": "Project Secretary",
         "department": "Project",
-        "bio": "Dedicated leader of the club.",
         "image": "tanvir.jpeg",
         "social": {whatsapp:"https://wa.me/8801922508147"}
       },
@@ -185,7 +167,6 @@ window.PANELS = [
         "name": "Iftakhar Mahmud",
         "position": "Project Secretary",
         "department": "Project",
-        "bio": "Dedicated leader of the club.",
         "image": "Iftekhar_Mahmud_Ornob.jpg",
         "social": {whatsapp:"https://wa.me/8801703767055"}
       },
@@ -193,7 +174,6 @@ window.PANELS = [
         "name": "Hasib sikder",
         "position": "Project Secretary",
         "department": "Project",
-        "bio": "Dedicated leader of the club.",
         "image": "Hasib.jpg",
         "social": {whatsapp:"https://wa.me/8801954535403"}
       },
@@ -201,15 +181,13 @@ window.PANELS = [
         "name": "Rishad Ar Rashid",
         "position": "ICT Secretary",
         "department": "ICT",
-        "bio": "Dedicated leader of the club.",
-        "image": "rishad.png",
+        "image": "rishad.jpeg",
         "social": {whatsapp:"https://wa.me/8801772154705"}
       },
       {
         "name": "Md. Julkar Nayeem",
         "position": "ICT Secretary",
         "department": "ICT",
-        "bio": "Dedicated leader of the club.",
         "image": "Md_Julkar_Nayeem.png",
         "social": {whatsapp:"https://wa.me/8801712249456"}
       },
@@ -217,7 +195,6 @@ window.PANELS = [
         "name": "Shahriar Momin",
         "position": "Office Secretary",
         "department": "",
-        "bio": "Dedicated leader of the club.",
         "image": "shahriar.jpeg",
         "social": {whatsapp:"https://wa.me/8801848677213"}
       },
@@ -225,7 +202,6 @@ window.PANELS = [
         "name": "Md. Najib Mahmud",
         "position": "Library Secretary",
         "department": "",
-        "bio": "Dedicated leader of the club.",
         "image": "Najib_Mahmud_Nabil.jpg",
         "social": {whatsapp:"https://wa.me/8801918470995"}
       },
@@ -233,7 +209,6 @@ window.PANELS = [
         "name": "Samiul Al Abir",
         "position": "Workshop Secretary",
         "department": "",
-        "bio": "Dedicated leader of the club.",
         "image": "Samiul_Al_Abir.jpg",
         "social": {whatsapp:"https://wa.me/8801540524763"}
       },
@@ -241,7 +216,6 @@ window.PANELS = [
         "name": "Alamin Kawser Abeg",
         "position": "Seminar Secretary",
         "department": "",
-        "bio": "Dedicated leader of the club.",
         "image": "Abeg.jpg",
         "social": {whatsapp:"https://wa.me/8801826002285"}
       },
@@ -249,7 +223,6 @@ window.PANELS = [
         "name": "Sadnan Samiun Rupom",
         "position": "Tour & Communication Secretary",
         "department": "",
-        "bio": "Dedicated leader of the club.",
         "image": "sadman_samiun_rupom.jpeg",
         "social": {whatsapp:"https://wa.me/8801976742577"}
       },
@@ -257,7 +230,6 @@ window.PANELS = [
         "name": "Mahbubur Rahman Lin",
         "position": "Entertainment secretary",
         "department": "",
-        "bio": "Dedicated leader of the club.",
         "image": "Mahbubur_Rahman_Lin.jpeg",
         "social": {whatsapp:"https://wa.me/88"}
       }
@@ -266,7 +238,7 @@ window.PANELS = [
   // ── 2024-2025 ─────────────────────────────────────────────────────────────
   {
     label: "2024-2025",
-    folder: "images/panel-25",
+    folder: "images/panel25",
     members: [
       {
         name: "Sreejoy Roy Ankon",
