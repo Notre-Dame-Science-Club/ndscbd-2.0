@@ -4,19 +4,19 @@
 <url>
   <loc>https://ndscbd.net/index.html</loc>
   <lastmod>2026-05-08T10:20:11+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.90</priority>
 </url>
 
 <url>
   <loc>https://ndscbd.net/executives.html</loc>
   <lastmod>2026-05-08T10:20:11+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.90</priority>
 </url>
   
 <url>
   <loc>https://ndscbd.net/about.html</loc>
   <lastmod>2026-05-30T10:20:11+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.70</priority>
 </url>
   
 <url>
@@ -28,13 +28,13 @@
 <url>
   <loc>https://ndscbd.net/publication.html</loc>
   <lastmod>2026-05-08T10:20:11+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.70</priority>
 </url>
 
 <url>
   <loc>https://ndscbd.net/developers.html</loc>
   <lastmod>2026-05-08T10:20:11+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.50</priority>
 </url>
 
 </urlset>
