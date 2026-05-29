@@ -1,0 +1,3 @@
+User-agents: *
+Allow: /
+Sitemap: https://ndscbd.net/sitemap.xml
